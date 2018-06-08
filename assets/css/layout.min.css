@@ -274,8 +274,8 @@ margin-bottom:0!important}
 .mobile-slide-1 {background-image: url(../img/1920x1080/01.jpg);}
 .mobile-slide-2 {background-image: url(../img/1920x1080/02.jpg);}
 @media (max-width: 1024px){
-    .mobile-slide-1 {background-image: url(../img/slide/01.jpg);}
-    .mobile-slide-2 {background-image: url(../img/slide/02.jpg);}
+    .mobile-slide-1 {background-image: url(../img/mobile-slide/01.jpg);}
+    .mobile-slide-2 {background-image: url(../img/mobile-slide/02.jpg);}
     .carousel-centered {top:35%;}
 }
 .ewm {width: 100px;height: auto;background-size: cover;}
@@ -306,3 +306,29 @@ img{display:block;max-width:100%;height:auto;}
 .overlay span{position:absolute;display:block;bottom:10px;text-align:center;width:100%;color:#ffffff;font-size:13px;font-weight:300;}
 .overlay i{position:absolute;left:50%;top:50%;font-size:26px;line-height:1x;color:#2F2F2F;margin-top:-8px;margin-left:-8px;text-align:center;font-weight:normal;}
 .overlay-container:hover .overlay{opacity:1;filter:alpha(opacity=100);-webkit-transform:scale(1);transform:scale(1);}
+#ewmInner{ display: none}
+.android_text{
+    position: absolute;
+    bottom: 290px;
+    left: 190px;
+    color: #fff;
+}
+.ios_text{
+    position: absolute;
+    bottom: 290px;
+    left: 400px;
+    color: #fff;
+}
+.android_ewm {position: absolute;bottom: 150px;width: 130px;height: 130px;background-size: cover}
+.ios_ewm {position: absolute;bottom: 150px;left: 350px;width: 130px;height: 130px;background-size: cover}
+@media (max-width:768px){
+    .ios_ewm {
+        left: 200px;
+    }
+    .android_text{
+        left: 50px;
+    }
+    .ios_text {
+        left: 250px;
+    }
+}
